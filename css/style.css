@@ -717,3 +717,19 @@ header ul li:before {
 .overlay .popup-form__btn:hover {
   box-shadow: 0 0 10px #c78030;
 }
+
+@media screen and (max-width: 1200px){
+
+  .content .contact-img img{
+    margin-top: 9%;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 990px){
+
+  .content .contact-img img{
+    margin-top: 25%;
+    height: 350px;
+  }
+}
